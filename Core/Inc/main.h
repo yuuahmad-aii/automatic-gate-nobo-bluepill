@@ -75,6 +75,8 @@ void USB_CDC_RxHandler(uint8_t*, uint32_t);
 #define ENABLE_STEPPER_GPIO_Port GPIOB
 #define DIR_STEPPER_Pin GPIO_PIN_10
 #define DIR_STEPPER_GPIO_Port GPIOB
+#define SD_CS_Pin GPIO_PIN_12
+#define SD_CS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
